@@ -1,0 +1,12 @@
+
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        app:defaultValue="Blue"
+        app:entries="@array/color_names"
+        app:entryValues="@array/color_values"
+        app:key="color"
+        app:title="Color"
+        app:summary="%s"
+        />
+</PreferenceScreen>
